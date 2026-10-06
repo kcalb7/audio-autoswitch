@@ -1,0 +1,9 @@
+{
+  "uuid": "audio-autoswitch@kcalb7",
+  "name": "Audio AutoSwitch",
+  "description": "Automatically sets the default audio output and microphone when the session starts, after a configurable delay.",
+  "shell-version": ["46"],
+  "settings-schema": "org.gnome.shell.extensions.audio-autoswitch",
+  "url": "https://github.com/kcalb7/audio-autoswitch",
+  "version": 1
+}

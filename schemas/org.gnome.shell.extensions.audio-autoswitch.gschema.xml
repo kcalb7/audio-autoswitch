@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.audio-autoswitch"
+          path="/org/gnome/shell/extensions/audio-autoswitch/">
+    <key name="sink-enabled" type="b">
+      <default>true</default>
+      <summary>Set the audio output on login</summary>
+    </key>
+    <key name="sink-name" type="s">
+      <default>''</default>
+      <summary>node.name of the default audio output</summary>
+    </key>
+    <key name="sink-description" type="s">
+      <default>''</default>
+      <summary>Output description (shown when disconnected)</summary>
+    </key>
+    <key name="source-enabled" type="b">
+      <default>true</default>
+      <summary>Set the microphone on login</summary>
+    </key>
+    <key name="source-name" type="s">
+      <default>''</default>
+      <summary>node.name of the default microphone</summary>
+    </key>
+    <key name="source-description" type="s">
+      <default>''</default>
+      <summary>Microphone description (shown when disconnected)</summary>
+    </key>
+    <key name="delay" type="u">
+      <range min="0" max="120"/>
+      <default>5</default>
+      <summary>Seconds to wait before applying</summary>
+    </key>
+  </schema>
+</schemalist>
