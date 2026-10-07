@@ -4,6 +4,8 @@ A GNOME Shell extension that automatically sets the default **audio output** and
 
 Handy when the system keeps restoring the wrong output (for example HDMI) on every boot.
 
+**GNOME Extensions:** [pending approval](https://extensions.gnome.org/extension/11162/audio-autoswitch/). The page will be available once the review is complete.
+
 ## Features
 
 - Pick, in a preferences panel, the output and microphone that should be the default on login.
@@ -19,7 +21,7 @@ Handy when the system keeps restoring the wrong output (for example HDMI) on eve
 
 ## Installation
 
-From source:
+Once approved, the easiest way will be the [GNOME Extensions page](https://extensions.gnome.org/extension/11162/audio-autoswitch/) (use the Extension Manager app or the browser integration). Until then, install from source:
 
 ```bash
 gnome-extensions pack --force --extra-source=audio.js --extra-source=LICENSE .
